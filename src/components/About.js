@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+// import vueIcon from "@iconify/icons-logos/vue";
+import { FaPython } from "react-icons/fa";
+
 
 class About extends Component {
   render() {
@@ -38,8 +40,11 @@ class About extends Component {
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  <Icon
+                  {/* <Icon
                     icon={vueIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  /> */}
+                  <FaPython 
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -50,23 +55,26 @@ class About extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
+                    <span className="move-right">
+                      <span
+                        className="iconify"
+                        data-icon="codicon:chrome-minimize"
+                        data-inline="false"
+                      ></span>{" "}
+                      &nbsp;{" "}
+                      <span
+                        className="iconify"
+                        data-icon="mdi:window-restore"
+                        data-inline="false"
+                      ></span>{" "}
+                      &nbsp;{" "}
+                      <span
+                        className="iconify"
+                        data-icon="clarity:window-close-line"
+                        data-inline="false"
+                      ></span>
+                    </span>
+                    
                   </div>
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
