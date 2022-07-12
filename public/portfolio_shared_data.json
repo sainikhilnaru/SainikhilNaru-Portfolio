@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Sainikhil Naru",
+      "titles": [ "Okta Consultant" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/sainikhilnaru",
           "class": "fab fa-github"
         },
         {
@@ -34,8 +34,8 @@
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "90"
         },
         {
@@ -54,8 +54,8 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Java", 
+          "class": "devicon-java-plain",
           "level": "65"
         },
         {
